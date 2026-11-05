@@ -1,0 +1,47 @@
+{
+  "season_id": "S01_pilot",
+  "season_title": "Season 01 Pilot · 霓虹崩塌竞技场（Neon Collapse Arena）",
+  "created_date": "2026-11-02",
+  "round_duration_seconds": 90,
+  "min_players": 1,
+  "max_players": 12,
+  "bot_fill_target": 6,
+  "style_requirement": {
+    "style_tag": "Synthwave_CyberArena",
+    "style_name": "80s 合成器浪潮霓虹赛博擂台（Synthwave Cyber Arena）",
+    "required_lighting": {
+      "ClockTime_range": [0.0, 3.5],
+      "Brightness_range": [0.5, 2.5],
+      "primary_palette_hex": ["#00DCFF", "#FF007F", "#1A0933", "#FFE600"],
+      "required_materials": ["Neon", "ForceField", "Glass", "SmoothPlastic"]
+    },
+    "description": "深紫午夜天幕、高对比度青粉霓虹网格地板、发光几何边框与清晰的预警视觉反馈（地板即将塌陷时必须通过颜色渐变与发光闪烁向玩家发出直觉信号）。"
+  },
+  "gameplay_requirement": {
+    "core_loop": "多面浮空霓虹能量砖块构成的竞技擂台。比赛开始后，每隔数秒随机或按波次选中若干砖块进入『预警 -> 坍塌坠落 -> 延时重生』循环；同时场内定期刷出『脉冲推力球』或『加速护盾』道具。玩家掉入底部虚空即淘汰（或扣除生命积分），坚持到最后或积分最高者获胜。",
+    "mandatory_features": [
+      "完全由代码程序化生成的 3D 霓虹擂台与出生点（SpawnPoints）",
+      "清晰的板块状态机（稳定态 -> 闪烁预警态 -> 坍塌消失态 -> 恢复态）",
+      "至少 1 种玩家间互动或走位博弈机制（如拾取脉冲波击退周围玩家，或冲刺跨越断层）",
+      "通过 RGBenchSDK 实时向客户端同步倒计时、存活人数与个人得分 HUD"
+    ]
+  },
+  "blind_codes": [
+    "Blind_A",
+    "Blind_B",
+    "Blind_C",
+    "Blind_D",
+    "Blind_E",
+    "Blind_F",
+    "Blind_G",
+    "Blind_H"
+  ],
+  "entrants": [
+    "gemini_3_1_pro",
+    "gpt_5_4_high",
+    "claude_opus_4_7",
+    "deepseek_v4_1_flash",
+    "kimi_k3_1_pro",
+    "longcat_2_5_preview"
+  ]
+}

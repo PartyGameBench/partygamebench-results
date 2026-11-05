@@ -1,0 +1,49 @@
+{
+  "season_id": "S01_pilot",
+  "mounted_utc": "2026-11-02T06:50:41.257896+00:00",
+  "mounted_count": 6,
+  "cartridges": [
+    {
+      "blind_code": "Blind_A",
+      "module_name": "Cartridge_Blind_A",
+      "source_stage": "00_raw",
+      "repair_tier": 0,
+      "alpha_native": 1.0
+    },
+    {
+      "blind_code": "Blind_B",
+      "module_name": "Cartridge_Blind_B",
+      "source_stage": "00_raw",
+      "repair_tier": 0,
+      "alpha_native": 1.0
+    },
+    {
+      "blind_code": "Blind_C",
+      "module_name": "Cartridge_Blind_C",
+      "source_stage": "00_raw",
+      "repair_tier": 0,
+      "alpha_native": 1.0
+    },
+    {
+      "blind_code": "Blind_D",
+      "module_name": "Cartridge_Blind_D",
+      "source_stage": "00_raw",
+      "repair_tier": 0,
+      "alpha_native": 1.0
+    },
+    {
+      "blind_code": "Blind_E",
+      "module_name": "Cartridge_Blind_E",
+      "source_stage": "00_raw",
+      "repair_tier": 0,
+      "alpha_native": 1.0
+    },
+    {
+      "blind_code": "Blind_F",
+      "module_name": "Cartridge_Blind_F",
+      "source_stage": "00_raw",
+      "repair_tier": 0,
+      "alpha_native": 1.0
+    }
+  ]
+}

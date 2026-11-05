@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PartyGameBench Season Leaderboard",
+  "type": "object",
+  "required": ["game", "season_id", "generated_at", "entries"],
+  "properties": {
+    "game": { "type": "string", "enum": ["roblox", "minecraft"] },
+    "season_id": { "type": "string" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["slot_id", "model_id", "tier", "alpha_native", "engineering_health", "crowd_fun_bt", "visual_fidelity_bt", "composite_score"],
+        "properties": {
+          "slot_id": { "type": "string" },
+          "model_id": { "type": "string" },
+          "tier": { "type": "string", "enum": ["T0_NATIVE_CLEAN", "T1_MINOR_REPAIR", "T2_MODERATE_REPAIR", "T3_HEAVY_REPAIR", "T4_DISQUALIFIED"] },
+          "alpha_native": { "type": "number" },
+          "engineering_health": { "type": "number" },
+          "crowd_fun_bt": { "type": "number" },
+          "visual_fidelity_bt": { "type": "number" },
+          "composite_score": { "type": "number" }
+        }
+      }
+    }
+  }
+}

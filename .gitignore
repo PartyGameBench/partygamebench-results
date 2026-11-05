@@ -1,0 +1,5 @@
+.DS_Store
+Thumbs.db
+*.tmp
+BLIND_KEY_PRIVATE.json
+.env
